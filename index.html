@@ -48,10 +48,10 @@
          
 
         <script>
-            var KEY = "4d3014bf10ff10581319f3a9a314117c";
+            var KEY = "b83769a844601a1fa59d4d4894094a7a";
             function JavaScriptFetch() {
                 var script = document.createElement('script');
-                script.src = 'https://battuta.medunes.net/api/country/all/?key=4d3014bf10ff10581319f3a9a314117c&callback=country';
+                script.src = 'https://battuta.medunes.net/api/country/all/?key=b83769a844601a1fa59d4d4894094a7a&callback=country';
                 document.querySelector('head').appendChild(script);
             }
             
@@ -98,7 +98,7 @@
     
                 $("#jsonpButton").ready(function (e) {
                     $.ajax({
-                        url: "https://battuta.medunes.net/api/country/all/?key=4d3014bf10ff10581319f3a9a314117c&callback=country",
+                        url: "https://battuta.medunes.net/api/country/all/?key=b83769a844601a1fa59d4d4894094a7a&callback=country",
                         dataType: "jsonp",
                         type: "POST",
                         jsonpCallback: 'processJSONPResponse', // add this property
